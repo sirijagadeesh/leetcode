@@ -9,3 +9,4 @@
 |00005|[Longest Palindromic Substring](./00005/problem.md)|[Go](./00005/solution.go)|Ok|
 |00006|||
 |00007|[Reverse Integer](./00007/problem.md)|[Go](./00007/solution.go)|Ok|
+|00008|[String to Integer (atoi)](./00008/problem.md)|[Go](./00008/solution.go)|Ok|
