@@ -1,18 +1,21 @@
 package leetcode
 
 func isPalindrome(x int) bool {
-	z := x
-	if z < 0 {
+	if x < 0 {
 		return false
 	}
 
+	return x == reverseNumber(x)
+}
+
+func reverseNumber(x int) int {
 	y := 0
 
-	for z != 0 {
-		l := z % 10
+	for x != 0 {
+		l := x % 10
 		y = y*10 + l
-		z /= 10
+		x /= 10
 	}
 
-	return x == y
+	return y
 }
